@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="contenedor">
+      <header id="cabecera">
+        <h1>Registro</h1>
+        <p>Complete todos los requisitos</p>
+      </header>
+      <div class="pagina-principal">
+        <p>
+          Puedes acceder a todo el contenido de apoyo a tu proyecto de vida
+          registrando los siguientes datos:
+        </p>
+        <br />
+        <form id="forma">
+          <div class="datos">
+            <div class="contenido">
+              <label id="name-label" for="name">Nombre</label>
+              <input
+                class="Eleinput"
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Escribe tu nombre"
+                required="true"
+              />
+            </div>
+
+            <div class="contenido">
+              <label id="email-label" for="email">Email</label>
+
+              <input
+                class="Eleinput"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Escribe tu correo"
+                required="true"
+              />
+            </div>
+
+            <div class="contenido">
+              <label id="contacto-label" for="contacto">Contacto WhatsApp</label>
+
+              <input
+                class="Eleinput"
+                type="number"
+                id="contacto"
+                name="contacto"
+                placeholder="Escribe tu Numero de Contacto"
+                required="true"
+              />
+            </div>
+          </div>
+
+          <br />
+
+          <div class="terminos-condiciones">
+            <label class="texto-politicas"
+              >Todos los datos registrados seran tratados de acuerdo a la
+              politica de tratamiento de datos que se rige de acuerdo a la ley
+              <a href="https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981" target="_blank">1581 de 2012</a> de Prooteccion de datos personales. </label
+            >
+            <br>
+            <br />
+            <input
+              type="checkbox"
+              class="checkbox"
+              name="terminosCondiciones"
+              id="aceptar"
+              value="aceptar"
+              required
+            />
+            <label id="acepto" for="aceptar"
+              >Aceptar Terminos y Condiciones</label
+            >
+          </div>
+
+          <br />
+
+          <button class="btn">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
